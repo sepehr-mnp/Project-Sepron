@@ -105,7 +105,7 @@ for($i=0;$i<sizeof($signs);$i+=1){
     $Array = json_decode($inp,true);
     file_get_contents($Array[0]['adrs']."/con/tst4.php?"."from=".urlencode($from)."&amount=".urlencode($amount)."&to=".urlencode($to)."&data=".urlencode($data)."&sign=".urlencode($sign)."&to2=".urlencode($to2)."&per=".urlencode($per));
      file_get_contents($Array[1]['adrs']."/con/tst4.php?"."from=".urlencode($from)."&amount=".urlencode($amount)."&to=".urlencode($to)."&data=".urlencode($data)."&sign=".urlencode($sign)."&to2=".urlencode($to2)."&per=".urlencode($per));
-    echo file_get_contents("http://wallet2.gigfa.com/con/sign3.php?id=".strval(intval($ass)+1));
+    echo file_get_contents($Array[2]['adrs']"/con/sign3.php?id=".strval(intval($ass)+1));
     echo $ass;
             
 }
