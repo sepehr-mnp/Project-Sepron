@@ -9,6 +9,9 @@ $datas=$data.$id;
 $inp = file_get_contents("trans.json");
 $tempArray = json_decode($inp,true);
 $prvHSH=$tempArray[sizeof($tempArray)-1]['HSH'];
+
+
+////check the sepron amount of the sender
 $mon =0;
 for($i=0;$i<sizeof($tempArray);$i+=1){
      if($tempArray[$i]['TRN']['from']==$from){
