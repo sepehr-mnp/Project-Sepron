@@ -1,2 +1,2 @@
-# ProjectSepron.githun.io
+# ProjectSepron
 the new cryptocurrency
