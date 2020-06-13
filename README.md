@@ -1,3 +1,4 @@
+#this shit fucked up! PRJ.SEPRON 2 is coming baby!
 # ProjectSepron
 the new cryptocurrency
 
